@@ -1,0 +1,38 @@
+body {
+	background-color: antiquewhite;
+}
+
+header {
+	text-align: center;
+	background-color: salmon;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.important {
+	position: fixed;
+	bottom: 0;
+}
+
+.hint {
+	display: none;
+}
+
+strong {
+	color: antiquewhite;
+}
+
+h2 {
+	margin-top:5%
+}
+
+main.feed {
+	text-align: center;
+	margin-top: 25vw;
+	font-size: large;
+}
+
+img {
+	display: block;
+	margin-left: auto;
+}

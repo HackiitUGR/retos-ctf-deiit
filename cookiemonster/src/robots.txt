@@ -1,0 +1,6 @@
+# This robots.txt file controls crawling of URLs under https://example.com.
+User-agent: *
+Disallow: /styles/
+Allow: /777/
+Allow: /feed.php
+
