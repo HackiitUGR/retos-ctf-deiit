@@ -9,12 +9,10 @@
 				This is a website for nasa employees only...
 			-->
 			<?php
-				
-				$employee = "https://www.nasa.gov/";
 
 				if(isset($_SERVER['HTTP_REFERER'])){
 					$referer = $_SERVER['HTTP_REFERER'];
-					if($referer == $employee){
+					if(preg_match('/nasa.gov/', $referer)){
 						echo "<h2>Welcome back employee!</h2>";
 						echo "<p>ETSIIT_CTF{N1c3_W3b_Kn0l3dg3}";
 					}
