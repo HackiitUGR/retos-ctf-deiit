@@ -1,0 +1,15 @@
+version: '3'
+services:
+  cookiemonster:
+    build:
+      context: ./cookiemonster
+    restart: unless-stopped
+    ports:
+      - "22440:80"
+
+  employeesonly:
+    build:
+      context: ./employeesonly
+    restart: unless-stopped
+    ports:
+      - "22441:80"
