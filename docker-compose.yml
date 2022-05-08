@@ -13,3 +13,24 @@ services:
     restart: unless-stopped
     ports:
       - "22441:80"
+
+  buffer_overflow1:
+    build:
+      context: ./buffer_overflow1/deploy
+    restart: unless-stopped
+    ports:
+      - "22442:31337"
+
+  buffer_overflow2:
+    build:
+      context: ./buffer_overflow2/deploy
+    restart: unless-stopped
+    ports:
+      - "22443:31337"
+  
+  buffer_overflow3:
+    build:
+      context: ./buffer_overflow3/deploy
+    restart: unless-stopped
+    ports:
+      - "22444:31337"
