@@ -1,0 +1,4 @@
+We found an encrypted string and the password used to encrypt it.
+Can you decrypt it?
+encrypted = "6g0;z ,p74H\x07B^\x13\x1e\x00Y+\x031_V\x1a\x10A\x1a\x02G\x11\x17N"
+key = "s3cr3t"
