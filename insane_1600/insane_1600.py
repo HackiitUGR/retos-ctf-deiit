@@ -1,3 +1,5 @@
+#!/usr/bin/python3
+
 import base64
 
 flag = 'ETSIIT_CTF{B64_15_N0T_CRYPT}'
